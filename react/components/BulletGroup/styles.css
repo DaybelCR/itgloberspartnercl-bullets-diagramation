@@ -1,0 +1,34 @@
+.bullet__item{
+background-color: #f0f0f0;
+}
+.bullet__item--title{
+    text-align: center;
+    font-weight:600;
+}
+
+.bullet__item--image{
+width: 15rem;
+min-width: 15rem;
+height: 15rem;
+min-height: 15rem;
+}
+.bullet__item--link{
+text-decoration: none;
+color: #000;
+}
+
+.bullet__container{
+    display: flex;
+    overflow: auto;
+}
+.bullet__container::-webkit-scrollbar{
+    height: 7px;
+}
+.bullet__container::-webkit-scrollbar-track{
+background-clip: padding-box ;
+background-color: #f0f0f0;
+}
+.bullet__container::-webkit-scrollbar-thumb{
+background-clip: padding-box ;
+background-color: #931505;
+}
